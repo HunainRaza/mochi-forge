@@ -21,8 +21,13 @@ __pycache__/
 mochi/
 
 # Generated Content (keep sample outputs only)
-outputs/*.mp4
+outputs/.mp4
 !outputs/sample_*.mp4
+
+# Exclude test videos specifically
+*test*.mp4
+*cpu_optimized*.mp4
+*gpu_optimized*.mp4
 
 # Logs and Debugging
 *.log
