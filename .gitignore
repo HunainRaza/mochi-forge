@@ -1,0 +1,59 @@
+# Virtual Environment
+env/
+venv/
+.venv/
+
+# Model Weights (too large for Git)
+models/
+*.safetensors
+
+# Cache and Temporary Files
+cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.cache/
+
+# External Repositories
+mochi/
+
+# Generated Content (keep sample outputs only)
+outputs/*.mp4
+!outputs/sample_*.mp4
+
+# Logs and Debugging
+*.log
+logs/
+debug/
+
+# Test Results
+~*/
+
+# System Files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Redis dumps
+dump.rdb
+
+# Jupyter Notebooks (if any)
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+
+~33
+~131
+~295
+~521

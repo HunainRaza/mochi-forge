@@ -1,0 +1,12 @@
+Flask==2.3.3
+Celery==5.3.4
+Redis==5.0.1
+torch>=2.0.0
+torchvision
+torchaudio
+uv
+ffmpeg-python
+Pillow
+numpy
+tqdm
+psutil
